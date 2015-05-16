@@ -14,8 +14,10 @@ class WebcamFeed(object):
             return True
         return False
             
-    def get_image(self):
+    def get_image(self, w=None, h=None):
         _, frame = self.webcam.read()
+        if w != None and h != None:
+            frame = cv2.resize(frame, (w, h))
         return cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
         
     def size(self):
