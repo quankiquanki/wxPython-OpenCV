@@ -20,3 +20,7 @@ The following Pyinstallers command can be used to generate a distributable appli
 ```
 pyinstaller pyinstaller_(win/mac).spec
 ```
+
+# License
+
+This template/boilerplate application is licensed under the MIT license. For more info see LICENSE.md
