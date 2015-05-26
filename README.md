@@ -1,5 +1,5 @@
 # wxPython-OpenCV
-A template/boilerplate application for combining wxPython with OpenCV. This application can be used as a base for integrating your OpenCV module into a cross-platform GUI framework.
+A template/boilerplate application combining wxPython with OpenCV. This application can be used as a base for integrating your OpenCV module into a cross-platform GUI framework.
 It also includes a Pyinstallers platform specific .spec file to compile the project into a distributable application.
 
 # Requirements
