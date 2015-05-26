@@ -1,8 +1,8 @@
 import wx
 
-from frames import VideoFrame
+from app.frames import VideoFrame
 
-# Run wx App
+""" Standard way of starting a wxPython app """
 app = wx.App(False)
 frame = VideoFrame(None)
 frame.Show()
